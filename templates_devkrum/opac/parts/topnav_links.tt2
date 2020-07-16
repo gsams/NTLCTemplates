@@ -1,0 +1,8 @@
+<div id="gold-links-holder">
+    <div id="gold-links">
+        <div id="header-links">
+            <a href="/">[% l('Home') %]</a>
+	    <a href="/eg/opac/results?bookbag=128661;page=0;locg=104;depth=0">[% l('Newly Added Items') %]</a>
+        </div>
+    </div>
+</div>

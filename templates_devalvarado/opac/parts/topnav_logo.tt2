@@ -1,0 +1,2 @@
+       <div id="topnav_logo"> <a href="/"><img alt="[% l('Alvarado Logo') %]" 
+            src="[% ctx.media_prefix %]/opac/images/alvarado_small_logo.jpg[% ctx.cache_key %]" /></a></div>

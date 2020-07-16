@@ -1,0 +1,11 @@
+<div id="gold-links-holder">
+    <div id="gold-links">
+        <div id="header-links">
+            <a href="/">[% l('Home') %]</a>
+            <!-- <a href="http://example.com">[% l('Link 2') %]</a>
+            <a href="http://example.com">[% l('Link 3') %]</a>
+            <a href="/eg/opac/results?locg=1&bookbag=60311&sort=titlesort">[% l('Nutmeg Teen Nominees') %]</a>
+            <a href="/eg/kpac/home">[% l('Kids Catalog') %]</a> -->
+        </div>
+    </div>
+</div>

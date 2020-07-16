@@ -1,0 +1,2 @@
+       <div id="topnav_logo"> <a href="/"><img alt="[% l('Lake Cities Logo') %]" 
+            src="[% ctx.media_prefix %]/opac/images/lake_small_logo.jpg[% ctx.cache_key %]" /></a></div>

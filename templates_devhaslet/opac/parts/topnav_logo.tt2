@@ -1,0 +1,2 @@
+       <div id="topnav_logo"> <a href="/"><img alt="[% l('Bridgeport Logo') %]" 
+            src="[% ctx.media_prefix %]/opac/images/Haslet_Logo_Small.png[% ctx.cache_key %]" /></a></div>

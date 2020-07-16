@@ -1,0 +1,12 @@
+<div id="gold-links-holder">
+    <div id="gold-links">
+        <div id="header-links">
+            <a href="/">[% l('Home') %]</a>
+			<a href="/eg/opac/results?bookbag=128294;page=0;locg=108;depth=0">[% l('Newly Added Items') %]</a>
+			<a href="/eg/opac/results?bookbag=128295;page=0;locg=108;depth=0">[% l('Recently Returned') %]</a>
+            <a href="/eg/opac/results?query=item_form%28s%29&qtype=keyword&fi%3Asearch_format=&locg=108&sort=pubdate.descending">[% l('eBooks & eAudios') %]</a>
+            <a href="/eg/opac/results?query=item_form%28o%29+Zinio&qtype=keyword&fi%3Asearch_format=&locg=108&sort=titlesort">[% l('eMagazines') %]</a>
+		<!--	<a href="http://roanoketx.boopsie.com">[% l('Mobile App') %]</a> -->
+        </div>
+    </div>
+</div>
