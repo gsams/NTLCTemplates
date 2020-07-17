@@ -1,27 +1,17 @@
-<!-- general purpose login dialog -->
-<div style='display:none;' dojoType="dijit.Dialog" jsId='oilsLoginDialog' class='oils-login-dialog'>
-    <script type="text/javascript">dojo.require('dijit.form.TextBox');</script>
-    <b>[% l('Please Login') %]</b>
-    <div class='hidden oils-notify-text' id='oils-login-failed'>[% l('Login Failed') %]</div>
-    <form>
-        <table>
-            <tr>
-                <td>[% l('Username') %]</td>
-                <td><input dojoType='dijit.form.TextBox' id='oils-login-username'/></td>
-            </tr>
-            <tr>
-                <td>[% l('Password') %]</td>
-                <td><input dojoType='dijit.form.TextBox' id='oils-login-password' type='password'/></td>
-            </tr>
-            <tr>
-                <td>[% l('Workstation') %]</td>
-                <td><span id='oils-login-workstation'></span></td>
-            </tr>
-            <tr>
-                <td colspan='2' align='center'>
-                    <button onclick='oilsDoLogin();' dojoType='dijit.form.Button'>[% l('Login') %]</button>
-                </td>
-            </tr>
-        </table>
-    </form>
-</div>
+[%- PROCESS "opac/parts/header.tt2";
+    WRAPPER "opac/parts/base.tt2";
+    INCLUDE "opac/parts/topnav.tt2";
+    basic_search = "f";
+    ctx.page_title = l("Account Login") %]
+    <h2 class="sr-only">[% l('Account Login') %]</h2>
+    <div class='mobile_hide'>
+        [% INCLUDE "opac/parts/searchbar.tt2" %]
+    </div>
+    <div id="content-wrapper">
+        <div id="main-content">
+            <h3 class="sr-only">[% l('Account Login Form') %]</h3>
+            [% INCLUDE "opac/parts/login/form.tt2" %]
+            <div class="clear-both very-big-height"></div>	
+        </div>
+    </div>
+[%- END %]
